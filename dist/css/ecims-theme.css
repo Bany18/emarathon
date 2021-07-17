@@ -1,0 +1,841 @@
+@charset "utf-8";
+/* CSS Document 
+ * lds-theme.css
+ * LDS
+ */
+
+
+/* Login Page */
+.sideimage {
+	background-image: url('../../../public/images/imgs/house.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.login-header {
+	font-size: 18px;
+	font-style: normal;
+	color: #12699f;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+
+.login-title {
+	font-size: 16px;
+	font-style: normal;
+	background-color: #12699f;
+	color: white;
+	border-color: white;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+
+.login-content {
+	font-size: 15px;
+	font-style: normal;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+.login-content-4 {
+	font-size: 22px;
+	font-style: normal;
+	font-family: 'Trebuchet MS';
+}
+
+.login-content-5 {
+	font-size: 15px;
+	font-style: normal;
+	font-family: 'Trebuchet MS';
+}
+.login-btn {
+	font-size: 17px;
+	font-style: normal;
+	background-color: #12699f;
+	color: white;
+	border-color: white;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+.menu-icon {
+	width: 80px;
+	height: 80px;
+}
+/* End */
+
+
+/* Dashboard */
+
+.company-logo {
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+}
+
+.menu-icon {
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	align-content: center;
+}
+
+
+.dash-menu-icon {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	align-content: center;
+}
+
+.dashboard-title {
+	font-size: 14px;
+	font-style: normal;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+.dashboard-content {
+	font-size: 16px;
+	font-style: normal;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+.menu-icon {
+	width: 80px;
+	height: 80px;
+}
+
+.sidebar-greetings {
+	font-size: 15px;
+	font-style: normal;
+	color: white;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+.sidebar-bg {
+	font-size: 15px;
+	font-style: normal;
+	background-color: #12699f;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+.dashboard-stats {
+	font-size: 20px;
+	font-style: normal;
+	color: #12699f;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+.brand-text {
+	font-size: 20px;
+	font-style: normal;
+	color: #A45136;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+
+.menu-lists {
+	font-size: 16px;
+	font-style: normal;
+	color: #fff;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+
+.greetings {
+	font-size: 17px;
+	font-style: normal;
+	font-family: 'Trebuchet MS';
+}
+
+/* End Dashboard */
+
+
+
+/* Profile */
+
+.company-logo-profile {
+	width: 230px;
+	height: 225px;
+}
+.profile-header {
+	font-size: 25px;
+	font-style: normal;
+	color: #12699f;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+.profile-content {
+	font-size: 19px;
+	font-style: normal;
+	color: 'grey';
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+.universal-btn {
+	font-size: 19px;
+	font-style: normal;
+	background-color: #12699f;
+	color: white;
+	border-color: white;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+.fields-bg {
+	font-size: 22px;
+	font-style: normal;
+	color: #12699f;
+	background-color: #fff;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+.bg-card {
+	font-size: 22px;
+	font-style: normal;
+	color: #12699f;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+.url-link {
+	font-size: 20px;
+	font-style: normal;
+	color: #A45136;
+	background-color: #fff;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+.validation-error {
+	font-size: 18px;
+	font-style: normal;
+	color: red;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+.back-url {
+	font-size: 20px;
+	font-style: normal;
+	color: #A45136;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+/* End */
+
+
+
+
+/* About */
+
+.about-content {
+	font-size: 20px;
+	font-style: normal;
+	color: #12699f;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+.about-header {
+	font-size: 18px;
+	font-style: normal;
+	color: #F3BB45;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+/* End */
+
+
+
+/* Settings */
+
+.list-content {
+	font-size: 20px;
+	font-style: normal;
+	color: #12699f;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+.modal-bg {
+	background-color: #12699f;
+}
+.modal-fields-bg {
+	font-size: 22px;
+	font-style: normal;
+	color: #12699f;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+/* End */
+
+
+
+
+
+
+/* Forms */
+
+.form-info-icon {
+	width: 20px;
+	height: 20px;
+}
+.table-bg {
+	font-size: 16px;
+	font-style: normal;
+	background-color: #12699f;
+}
+.table-content {
+	font-size: 16px;
+	font-style: normal;
+	color: #12699f;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+.table-content-2 {
+	font-size: 18px;
+	font-style: normal;
+	color: #12699f;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+.table-content-3 {
+	font-size: 16px;
+	font-style: normal;
+	color: #fff;
+	background-color: #12699f;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+.table-content-4 {
+	font-size: 16px;
+	font-style: normal;
+	color: #fff;
+	background-color: #12699f;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+
+.table-content-5 {
+	font-size: 20px;
+	font-style: normal;
+	color: #12699f;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+
+
+.close-icon {
+	color: #fff;
+}
+.delete-modal-header {
+	font-size: 22px;
+	font-style: normal;
+	color: #fff;
+	background-color: #12699f;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+.delete-modal-content {
+	font-size: 20px;
+	font-style: normal;
+	color: #12699f;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+.print-url {
+	font-size: 22px;
+	font-style: normal;
+	color: #2C824B;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+.breadcumb-icon {
+	width: 10px;
+	height: 10px;
+}
+.scrollme {
+	overflow-y: auto;
+}
+
+.breadcrumb-logo {
+	padding-top: 10px;
+}
+
+.mtuha-logo {
+	width: 80px;
+	height: 80px;
+}
+
+.router-link-exact-active {
+background-image: linear-gradient(to right, #1CAF9A 0%, #17A2B8 100%);
+background-repeat: repeat-x;
+color: #fff !important;
+}
+
+
+
+/* End */
+
+
+/* Base */
+
+.navlinks {
+ font-size: 15px;
+ font-style: normal;
+ color: white;
+ font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+
+.navbrand {
+ font-size: 25px;
+ font-style: normal;
+ color: white;
+ font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+ padding-top: 9px;
+}
+
+.authlinks {
+ font-size: 16px;
+ font-style: normal;
+ color: #12699f;
+ font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+
+.cardstyle {
+ padding-top: 10px;
+}
+
+.searchbtn {
+ padding-top: 37px;
+}
+
+/* End */
+
+
+/* OPD */
+
+
+.card-bg {
+	background-color: #12699f;
+}
+
+.card-icon {
+	width: 70px;
+	height: 70px;
+}
+
+.card-content {
+	font-size: 22px;
+	font-style: normal;
+	color: #fff;
+	text-align: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+
+.card-align {
+	padding-top: 20%;
+}
+
+.card-align-2 {
+	padding-top: 10%;
+}
+
+
+.card-align-3 {
+	padding-top: 5%;
+}
+
+
+.navbar-custom {
+	background-color: #ffffff;
+	font-size: 19px;
+    font-style: normal;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+	height: 70px;
+}
+
+.navbar-route {
+	font-size: 20px;
+    font-style: normal;
+    color: #12699f;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+
+
+.navbar-brand-text {
+	font-size: 26px;
+    font-style: normal;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+
+.qatar {
+ color: #12699f;
+}
+
+.input-custom {
+    border: none;
+    background: transparent;
+}
+
+.email-content {
+	font-size: 18px;
+	font-style: normal;
+	color: #0000;
+	font-family: "Trebuchet MS";
+}
+
+
+.menu-items-topbar {
+	font-size: 15px;
+	color: #000000;
+	font-family: "Trebuchet MS";
+}
+
+.table-content {
+	font-size: 15px;
+	font-style: normal;
+	color: '#12699f';
+	font-family: "Trebuchet MS";
+}
+
+.table-bg {;
+	background-color: #12699f;
+}
+
+.tbh {
+	font-size: 15px;
+	font-style: normal;
+	color: 'white';
+	font-family: "Trebuchet MS";
+}
+
+/* End */
+
+/* Text Styles */
+
+.menu-items {
+    font-size: 15px;
+	color: #fff;
+	font-family: "Trebuchet MS";
+}
+
+.brand-name {
+    font-size: 19px;
+	color: #12699f;
+	font-weight: 500;
+	font-family: "Trebuchet MS";
+}
+
+.top-bar-text {
+    font-size: 17px;
+	font-family: "Trebuchet MS";
+}
+
+.breadcrumb-text {
+    font-size: 20px;
+	font-family: "Trebuchet MS";
+}
+
+.table-center {
+ text-align: center;
+}
+
+.bg-theme-custom {
+	background-color: #12699f;
+}
+
+.card-icon-custom {
+	color: #12699f;
+}
+
+.card-text-custom {
+	color: grey;
+	font-size: 16px;
+	font-family: "Trebuchet MS";
+}
+
+.account-text-custom {
+	color: grey;
+	font-size: 16px;
+	font-family: "Trebuchet MS";
+}
+
+.account-text-header {
+	color: grey;
+	font-size: 18px;
+	font-family: "Trebuchet MS";
+}
+
+.modal-alert-text {
+	color: grey;
+	font-size: 17px;
+	font-family: "Trebuchet MS";
+}
+
+.notimgs {
+	height: 5%;
+}
+
+.noalert-text-header {
+	font-size: 20px;
+	font-family: "Trebuchet MS";
+}
+
+.alert-card {
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.user-status {
+	font-size: 20px;
+	font-family: "Trebuchet MS";
+}
+
+.tooltip-inner {
+  background-color: #00acd6 !important;
+  color: #fff;
+  font-family: "Trebuchet MS";
+}
+
+.tooltip.top .tooltip-arrow {
+  border-top-color: #00acd6;
+}
+
+.tooltip.right .tooltip-arrow {
+  border-right-color: #00acd6;
+}
+
+.tooltip.bottom .tooltip-arrow {
+  border-bottom-color: #00acd6;
+}
+
+.tooltip.left .tooltip-arrow {
+  border-left-color: #00acd6;
+}
+
+.pwd-btn {
+	font-size: 22px;
+	font-style: normal;
+	font-family: "Trebuchet MS";
+}
+
+.tt-status {
+	font-size: 16px;
+	font-family: "Trebuchet MS";
+}
+
+.pro-image{
+   width: 680px;
+   height: 350px;
+}
+
+.pro-image-2{
+   width: 350px;
+   height: 180px;
+}
+
+.icon-danger{
+   color: rgb(220, 53, 69);
+}
+
+.icon-info{
+  color: rgb(39, 169, 227);
+}
+
+.icon-success{
+  color: #5cb85c;
+}
+
+.pro-image-3{
+   width: 230px;
+   height: 100px;
+}
+
+.dashboard-stats-bg {
+    background-color: white;
+}
+
+.dashboard-stats-icons {
+	font-style: normal;
+	font-family: 'Trebuchet MS';
+	font-weight: bold;
+}
+
+.dashboard-stats-number {
+	font-size: 35px;
+	font-style: normal;
+	font-family: 'Trebuchet MS';
+	font-weight: bold;
+}
+
+.dashboard-stats-text {
+	font-size: 23px;
+	font-style: normal;
+	font-family: 'Trebuchet MS';
+	font-weight: bold;
+}
+
+.card-shadow{box-shadow:0 0.46875rem 2.1875rem rgba(4,9,20,0.03),0 0.9375rem 1.40625rem rgba(4,9,20,0.03),0 0.25rem 0.53125rem rgba(4,9,20,0.05),0 0.125rem 0.1875rem rgba(4,9,20,0.03);transition:all .2s;}
+
+.pro-image-4{
+   height: 150px;
+}
+
+
+@font-face { font-family: Josefin Sans; 
+			 src: url('../fonts/JosefinSans-Regular.ttf'); } 
+
+.uni-font {
+  font-family: Josefin Sans; 
+  font-size: 18px;
+}
+
+.menu-font {
+  font-family: Josefin Sans; 
+  font-size: 18px;
+}
+
+.details-font {
+  font-family: Josefin Sans; 
+  font-size: 20px;
+}
+
+.dash-logo{
+   height: 30px;
+   width: 30px;
+}
+
+.layby-header {
+	font-size: 28px;
+	font-style: normal;
+	font-family: 'Trebuchet MS';
+	font-weight: bold;
+}
+
+.layby-header-2 {
+	font-size: 23px;
+	font-style: normal;
+	font-family: 'Trebuchet MS';
+	font-weight: bold;
+	text-align: center;
+}
+
+.layby-header-3 {
+	font-size: 20px;
+	font-style: normal;
+	font-family: 'Trebuchet MS';
+}
+
+.layby-header-subtitle {
+	font-size: 17px;
+	font-style: normal;
+	text-transform: capitalize;
+	font-family: 'Trebuchet MS';
+}
+
+.layby-subtitle {
+	font-size: 26px;
+	font-style: normal;
+	text-transform: capitalize;
+	font-family: 'Trebuchet MS';
+}
+
+.totalsales {
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	font-family: 'Trebuchet MS';
+}
+
+.invoice-logo {
+	width: 170px;
+	height: 170px;
+}
+
+.form {
+margin: 0px;
+padding: 0px;
+}
+
+.hide-on-screen {display:none;}
+.yesPrint, .noPrint {display:block;}
+
+@media print {
+   .hide-on-screen {display:block;}
+   .noPrint {display:none;}
+}
+
+/*body {visibility:hidden;}*/
+     .print {visibility:visible;}
+
+
+@media print
+{
+.noprint {display:none;}
+}
+
+@media screen
+{
+}
+
+.tablestyle {
+	border-color: black;
+	color: black;
+	border: none;
+}
+
+.invoice-align {
+	padding-top: 7%;
+}
+
+.login-bg-color {
+background-color: #12699f;
+}
+
+.del-note-3 {
+	margin-top: 15%;
+}
+
+.sleepy-icon{
+width: 250px;
+height: 250px;	
+}
+
+.dash-more{
+	font-size: 18px;
+	color: rgb(134, 139, 161);
+}
+
+.box {
+  background: white;
+  margin: auto;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.box:hover {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  animation-name: example;
+  animation-duration: 0.25s;
+  border-left: 8px solid #12699f;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+@keyframes example {
+    0%   {border-left: 2px solid #ffffff;}
+    25%  {border-left: 3px solid #ffe6e6;}
+    50%  {border-left: 6px solid #12699f;}
+    100% {border-left: 6px solid #12699f;}
+}
+
+.bg-custom-color {
+	font-size: 17px;
+	font-style: normal;
+	text-transform: capitalize;
+	font-family: 'Trebuchet MS';
+	background-color: #12699f !important;
+	color: white;
+	
+}
+
+.sys-notifications {
+	font-size: 17px;
+	font-style: normal;
+	font-family: 'Trebuchet MS';
+	color: red;
+}
+
+.sys-notifications-link {
+	font-size: 17px;
+	font-style: normal;
+	font-weight: bold;
+	font-family: 'Trebuchet MS';
+	color: gray;
+}
+
+.legend-font {
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	font-family: 'Trebuchet MS';
+	color: gray;
+}
+
+  .br { 
+            display: block; 
+            margin-bottom: 0em; 
+        } 
+.page-body .select2-drop {z-index: 10052;}
+.select2-drop-mask {z-index: 10052;}
+
+.no-history-icon{
+width: 120px;
+height: 120px;	
+}

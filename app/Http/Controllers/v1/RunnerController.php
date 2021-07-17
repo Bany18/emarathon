@@ -84,7 +84,7 @@ class RunnerController extends Controller
 	   $runner->tsize       = $request->tsize;
        $runner->save();
 
-	   $msg = 'Greetings ' .  $runner->fname . ', Your have been successfully registered for '. $runner->rcat . '. Your Runner No is - ' . $runner->runner_id . '. We will send you further instructions on how to proceed!';
+	   $msg = 'Greetings ' .  $runner->fname . ', Your have been successfully registered for '. $runner->rcat . '. Your Runner No is - ' . $runner->runner_no . '. We will send you further instructions on how to proceed!';
 		
 	   $api_key='c054131ebcbdb2ae';
        $secret_key = 'ZTBmZWM0MjFmMzI1MjIyMzBkNTA0OTI2Y2IzMzg0MTYzNzM0OTkzOWYwMTVlZjZkNTFmMzhjMjJmODViZDZhNw==';
@@ -114,6 +114,10 @@ class RunnerController extends Controller
 		'Authorization:Basic ' . base64_encode("$api_key:$secret_key"),
        ),
        ));
+        
+        $response = curl_exec($curl);
+        $err = curl_error($curl);
+        curl_close($curl);
 		
 	   return response()->json($runner);
     }

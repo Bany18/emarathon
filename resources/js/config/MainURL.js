@@ -2,7 +2,7 @@
 //Developer: Alban A.B
 //Email: alban@solvedcodes.com
 
-const BASE_URL = 'https://localhost/emarathon/api'
+const BASE_URL = 'http://localhost/emarathon/api'
 const FILE_URL = 'http://localhost/emarathon/public'
 
 

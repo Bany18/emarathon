@@ -34,24 +34,14 @@ import Registration from "./main/registration";
 export default {
   data() {
     return {
-      drawer: true,
-      group: null,
       image_src: "public/images/logo/tms_logo.png",
     };
   },
   components: {
     Registration,
   },
-  computed: {
-    buttonText() {
-      return !this.$vuetify.theme.dark ? "Go Dark" : "Go Light";
-    },
-  },
-  methods: {
-    toggleTheme() {
-      this.$vuetify.theme.dark = !this.$vuetify.theme.dark;
-    },
-  },
+  computed: {},
+  methods: {},
   mounted() {},
 
   created() {},

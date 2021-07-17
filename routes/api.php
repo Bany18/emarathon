@@ -21,14 +21,10 @@ Route::group([
 
 //Registration
 Route::resource('v1/runner', 'v1\RunnerController');
-Route::post('v1/sendmsg', 'v1\RunnerController@sendmsg');
 	
 
 //Location
 Route::resource('v1/regions', 'v1\RegionController');
 Route::resource('v1/countries', 'v1\CountryController');
 	
-
-
-
 });

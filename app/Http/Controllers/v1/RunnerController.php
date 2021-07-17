@@ -67,6 +67,8 @@ class RunnerController extends Controller
 		
 	   $rno = IdGenerator::generate(['table' => 'runners', 'field' => 'runner_no', 'length' => 7, 'prefix' =>'XYZ', '-' ]);
 		
+	   $rec_id = mt_rand(1, 100);
+		
 	   $runner = new Runner();
 	   $runner->runner_no   = $rno;
 	   $runner->fname       = $request->fname;
@@ -92,7 +94,7 @@ class RunnerController extends Controller
            'encoding'=>0,
            'schedule_time' => '',
            'message' => $msg,
-           'recipients' => [array('recipient_id' => '1','dest_addr'=> $runner->phoneno)]
+           'recipients' => [array('recipient_id' => $rec_id,'dest_addr'=> $runner->phoneno)]
        ];
 
         $curl = curl_init();
@@ -115,6 +117,12 @@ class RunnerController extends Controller
 		
 	   return response()->json($runner);
     }
+	
+	public function test () {
+		$rec_id = mt_rand(1, 100);
+		
+		return response()->json($rec_id);
+	}
 	
     /**
      * Display the specified resource.
